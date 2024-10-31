@@ -48,10 +48,10 @@ react.includes("SawYa") ||
 react.includes("Sawya") || 
 react.includes("tor mare xudi") || react.includes("vuda") || react.includes("heda") || react.includes("bap")) {
 		var msg = {
-				body: " ❒ এখানে গালাগালি করলে মুখ সেলাই কইরা দিমু..!!😾"
+				body: " ❒ এখানে গালাগালি করলে মুখ সেলাই কইরা দিমু.😾সাহস কত বড় তোর আমি রবিউল বট থাকতে গালি দিলি!!😾"
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😾", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
